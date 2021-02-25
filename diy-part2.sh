@@ -7,7 +7,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
-rm -rf ./package/lean/luci-app-jd-dailybonus
+#rm -rf ./package/lean/luci-app-jd-dailybonus
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.5/g' package/base-files/files/bin/config_generate
 # git clone -b master https://github.com/jerrykuku/lua-maxminddb package/lua-maxminddb
@@ -15,4 +15,4 @@ sed -i 's/192.168.1.1/192.168.1.5/g' package/base-files/files/bin/config_generat
 # git clone -b master https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
 # git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon-18.06
 # git clone -b master https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
-git clone -b master https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+# git clone -b master https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
